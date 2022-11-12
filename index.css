@@ -20,7 +20,7 @@ Make the small ball on the right roll to the right when the large one hits it.
   /* Hint: manipulate margin-left to roll it, just like with the ball-one above. */
     margin-left: 100px;
   /* Double hint: Don't forget about transition-delay! */
-    transition-delay: 450ms;
+    transition-delay: 390ms;
 }
 /* 
 ================================
@@ -38,4 +38,5 @@ Necessary CSS Below-- no need to edit */
     border-radius: 50%;
     position: absolute; top: 100px; left: 300px;
     width: 100px; height: 100px;
+    transition: 1s;
 }

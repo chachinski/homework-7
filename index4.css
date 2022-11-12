@@ -72,20 +72,20 @@ div#main:hover .topleft {
 }
 div#main:hover .topright {
     transform: rotate(-90deg);
-    transform-origin:  right top ;
+    transform-origin:  top right ;
     transition: 1s ;
 
 }
 div#main:hover .bottomleft {
-    transform: rotate(90deg);
-    transform-origin:  left top;
+    transform: rotate(-90deg);
+    transform-origin:  bottom left;
     transition: 1s ;
 
 }
 
 div#main:hover .bottomright {
-    transform: rotate(-90deg);
-    transform-origin: right top;
+    transform: rotate(90deg);
+    transform-origin: right bottom;
     transition: 1s;
 
 }
